@@ -1,12 +1,9 @@
-#cvariables
-
-
-#1
+#=========== CODE =================
 print("""+-------------------------------------+
 | ///    Calculateur Frais OM   ///   |
 | Software by: Romario                |                                 
-| Version: 1.0                        |
-| Last update: 09/03/21 05:32         |
+| Version: 1.1                        |
+| Last update: 09/03/21 12:12         |
 +-------------------------------------+
 """)
 amount = int(input("Entrez le montant: "))
@@ -37,9 +34,11 @@ while amount > 20005 and amount <= 35000:
     break
 while amount > 35005 and amount <= 60000:
     print("Frais de retrait: 1275F")
-    print("Redemarrez le logiciel ")
     break
-while amount > 100000 and amount <= 20000000:
+while amount > 60005 and amount <= 100000:
+    print("Frais de retrait: 1500F")
+    break
+while amount > 100005 and amount <= 20000000:
     cal = (amount * 1) / 100
     print("Frais de retrait: " + str(cal) + "F")
     amount = int(input("\n\nEntrez le montant: "))
