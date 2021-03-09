@@ -32,7 +32,7 @@ while amount > 15005 and amount <= 20000:
 while amount > 20005 and amount <= 35000:
     print("Frais de retrait: 1050F")
     break
-while amount > 35005 and amount <= 60000:
+while amount > 35005 and amount <= 60000: 
     print("Frais de retrait: 1275F")
     break
 while amount > 60005 and amount <= 100000:
